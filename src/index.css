@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+@theme {
+  --font-tajawal: "Tajawal", sans-serif;
+  --font-sans: "Tajawal", sans-serif;
+}
+
+body {
+  font-family: var(--font-tajawal);
+}
+
+.btn-primary {
+  cursor: pointer;
+  font-weight: 600;
+  color: #fff;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  justify-content: center;
+  align-items: center;
+  transition-duration: 0.3s;
+  display: inline-flex;
+  padding-inline: 32px;
+  padding-block: 16px;
+  background: linear-gradient(135deg, rgb(249, 115, 22), rgb(234, 88, 12));
+}
+.animation-delay {
+  animation-delay: -2s;
+}
+
+.text-gradient {
+  -webkit-text-fill-color: transparent;
+  background: linear-gradient(135deg, rgb(249, 115, 22), rgb(251, 191, 36)) text;
+}
+
+.glass-card {
+  border-radius: 1.5rem;
+  background: rgba(22, 22, 22, 0.8);
+  border-image: none;
+  border: 1px solid rgb(38, 38, 38);
+}
