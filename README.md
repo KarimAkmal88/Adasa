@@ -1,16 +1,89 @@
-# React + Vite
+# 📸 Adasa — Photography Blog
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Adasa is a responsive photography blog built with **React**, featuring a modern Arabic RTL interface for exploring photography articles, categories, and techniques.
 
-Currently, two official plugins are available:
+The project was developed as part of the **Route Academy MERN Stack Diploma** to practice building a complete React application using reusable components, routing, state management, filtering, search, and pagination.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Features
 
-## React Compiler
+- Responsive Arabic RTL design
+- Reusable React components
+- Client-side routing with React Router
+- Dynamic blog post details using slugs
+- Search functionality
+- Category-based filtering
+- Pagination
+- Grid and list viewing modes
+- Related posts
+- Empty search and filter states
+- Responsive navigation
+- About, Privacy Policy, and Terms pages
+- Custom 404 page
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tech Stack
 
-## Expanding the ESLint configuration
+- React
+- JavaScript
+- React Router
+- Tailwind CSS
+- Font Awesome
+- Vite
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📂 Project Structure
+
+The application is organized around reusable components and dedicated page-level views:
+
+- `components` — reusable UI and blog components
+- `pages` — application pages and route views
+- `layouts` — shared application layout
+- `data` — blog posts and application data
+- `assets` — static assets
+
+## 🧠 What I Practiced
+
+This project helped me practice:
+
+- Component-based architecture
+- Props and state management
+- Derived data and filtering
+- Search and pagination logic
+- URL query parameters
+- Dynamic route parameters
+- React Router navigation
+- Conditional rendering
+- Responsive UI development
+- Separation of responsibilities between components
+
+## 🚀 Getting Started
+
+Clone the repository:
+
+    git clone https://github.com/KarimAkmal88/Adasa.git
+
+Install dependencies:
+
+    npm install
+
+Start the development server:
+
+    npm run dev
+
+Create a production build:
+
+    npm run build
+
+## 🌐 Live Demo
+
+Deployment link will be added after publishing the project on Vercel.
+
+## 👨‍💻 Author
+
+**Karim Akmal**
+
+Computer Engineer & MERN Stack Developer
+
+GitHub: @KarimAkmal88
+
+---
+
+Built as part of my React learning journey at Route Academy.
